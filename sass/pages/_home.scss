@@ -101,7 +101,7 @@
                 background: linear-gradient(261deg, #0B710B 32.63%, #393 98.96%);
 
                 h2 {
-                    color: var(--txt-white, #FFF);
+                    color: #FFF;
                     text-align: center;
                     font-size: 64px;
                     font-weight: 700;
@@ -122,7 +122,7 @@
                             border: 1px solid var(--white, #FFF);
                             background: #0B710B;
 
-                            color: variables.$white;
+                            color: #000;
                             font-size: 20px;
                             font-weight: 500;
                             line-height: 130%;
