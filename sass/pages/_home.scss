@@ -114,7 +114,9 @@
                     align-items: center;
 
                     .form {
+                        placeholder
                         input {
+                            color: variables.$white;
                             margin-bottom: 16px;
                             width: 100%;
                             padding: 16px 32px;
@@ -122,7 +124,7 @@
                             border: 1px solid var(--white, #FFF);
                             background: #0B710B;
 
-                            color: #000;
+                            color: #fff;
                             font-size: 20px;
                             font-weight: 500;
                             line-height: 130%;
@@ -212,10 +214,9 @@
     .footer {
 
         h1 {
-            color: variables.$black;
             font-size: 64px;
             font-weight: 700;
-            line-height: 110%;
+            line-height: 100%;
             margin-bottom: 40px;
         }
 
