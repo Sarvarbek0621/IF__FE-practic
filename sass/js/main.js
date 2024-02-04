@@ -1,5 +1,3 @@
-"use script"
-
 // ! Categories start
 const categories = [
     {
