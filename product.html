@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./libs/normalize.css">
     <!-- custom css -->
     <link rel="stylesheet" href="./css/main.css">
+    <!-- icon -->
+    <link rel="icon" href="./images/icons/logo.svg">
 </head>
 
 <body>
@@ -18,7 +20,7 @@
     <div class="wrapper">
 
         <!-- ! header section -->
-        <section class="header">
+        <header class="header">
             <div class="container">
                 <div class="header_box">
                     <div class="header_logo">
@@ -34,13 +36,13 @@
 									<a class="header_link" href="index.html">Main Page</a>
 								</li>
 								<li class="header_items">
-									<a class="header_link" href="category.html">Categories</a>
+									<a class="header_link" href="categories.html">Categories</a>
 								</li>
 								<li class="header_items">
-									<a class="header_link" href="product.html">All products</a>
+									<a class="header_link" href="category.html">All products</a>
 								</li>
 								<li class="header_items">
-									<a class="header_link last-child" href="backet.html">All sales</a>
+									<a class="header_link " href="backet.html">All sales</a>
 								</li>
 							</ul>
 							
@@ -54,11 +56,11 @@
 						</div>
 					</div>
                     <div class="backet_img">
-                        <img class="backet" src="./images/icons/backet.svg" alt="backet">
+                        <a href="./backet.html"><img class="backet" src="./images/icons/backet.svg" alt="backet"></a>
                     </div>
                 </div>
             </div>
-        </section>
+        </header>
 
         <!-- ! main section -->
         <main class="main">
@@ -76,17 +78,17 @@
                                 <button class="btn btn_p">-17%</button>
                                 <div class="plus_minus-box">
                                     <div class="plus_minus plus_minus-two">
-                                        <button class="btn_two">
+                                        <button class="btn_two minus_btn">
                                             <img class="minus" src="images/icons/minus.svg" alt="minus">
                                         </button>
                                         <div class="div_p">
-                                            <p>1</p>
+                                            <p class="value">0</p>
                                         </div>
-                                        <button class="btn_two">
-                                            <img class="minus" src="images/icons/plus.svg" alt="minus">
+                                        <button class="btn_two  ">
+                                            <img class="minus" src="images/icons/plus.svg" alt="plus">
                                         </button>
                                     </div>
-                                    <button class="btn btn_hover">Add to cart</button>
+                                    <a href="./backet.html" class="btn">Add to cart</a>
                                 </div>
                                 <h5>Description</h5>
                                 <p>This high quality everyday secateur features a fully hardened and tempered,
@@ -133,7 +135,9 @@
     <!-- custom js -->
     <script src="./js/main.js"></script>
     <script src="./js/maintwo.js"></script>
+    <script src="./js/mainthree.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/plus-minus.js"></script>
 
 </body>
 

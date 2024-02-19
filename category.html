@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./libs/normalize.css">
     <!-- custom css -->
     <link rel="stylesheet" href="./css/main.css">
+    <!-- icon -->
+    <link rel="icon" href="./images/icons/logo.svg">
 </head>
 
 <body>
@@ -18,7 +20,7 @@
     <div class="wrapper">
 
         <!-- ! header section -->
-        <section class="header">
+        <header class="header">
             <div class="container">
                 <div class="header_box">
                     <div class="header_logo">
@@ -34,13 +36,13 @@
                                     <a class="header_link" href="index.html">Main Page</a>
                                 </li>
                                 <li class="header_items">
-                                    <a class="header_link" href="category.html">Categories</a>
+                                    <a class="header_link" href="categories.html">Categories</a>
                                 </li>
                                 <li class="header_items">
-                                    <a class="header_link" href="product.html">All products</a>
+                                    <a class="header_link" href="#!">All products</a>
                                 </li>
                                 <li class="header_items">
-                                    <a class="header_link last-child" href="backet.html">All sales</a>
+                                    <a class="header_link" href="backet.html">All sales</a>
                                 </li>
                             </ul>
 
@@ -56,12 +58,12 @@
                         </div>
                     </div>
                     <div class="backet_img">
-                        <img class="backet" src="./images/icons/backet.svg" alt="backet">
+                        <a href="./backet.html"><img class="backet" src="./images/icons/backet.svg" alt="backet"></a>
                         <button class="btn">12</button>
                     </div>
                 </div>
             </div>
-        </section>
+        </header>
 
         <!-- ! main section -->
         <main class="main">
@@ -78,7 +80,7 @@
                             <h4 class="h_four">Price</h4>
                            <div class="input_box">
                                 <input type="text" placeholder="from">
-                                <input type="text" placeholder="to">
+                                <input type="number" class="number_input" placeholder="to">
                            </div>
                         </div>
                         <div class="box">
@@ -105,6 +107,7 @@
             </section>
 
         </main>
+        
 
         <!-- ! footer section -->
         <footer class="footer">
@@ -127,9 +130,10 @@
     <script src="./libs/swiper/swiper.min.js"></script>
 
     <!-- custom js -->
-    <script src="./js/main.js"></script>
     <script src="./js/maintwo.js"></script>
+    <script src="./js/mainthree.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/plus-minus.js"></script>
 
 </body>
 
