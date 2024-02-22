@@ -266,11 +266,11 @@ body {
   margin-right: 24px;
   font-size: 20px;
   color: #FFF;
-  background-color: darkviolet;
+  background-color: #071f21;
   border-radius: 12px;
 }
 .wrapper .main .categories .tabs .tabheader_items .tabheader_item__active {
-  background-color: navy;
+  background-color: rgb(42, 71, 42);
 }
 .wrapper .main .categories .tabs .categories_boxes_2,
 .wrapper .main .categories .tabs .categories_boxes {
